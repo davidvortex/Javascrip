@@ -34,3 +34,4 @@ const ejericicio = {
     "fisicultirista":300
 }
 
+console.log(ejericicio)
