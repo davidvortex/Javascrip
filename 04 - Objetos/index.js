@@ -26,3 +26,11 @@ for (const key in Deportes) {
     console.log(element)
 }
 
+
+// este tipo de ejercicios propiedades de objetos pero se puede enlazar con otros objetos o añadir mas objetos
+const ejericicio = {
+    ... Deportes,
+    "Gym":200,
+    "fisicultirista":300
+}
+
