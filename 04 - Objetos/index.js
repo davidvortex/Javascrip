@@ -1,13 +1,13 @@
 // crear mi objeto
 const Deportes = {
-"futbol":20,
-"Basquetbol":30,
-"voleybol":40,
-"tenis":{
-    "rojo":51,
-    "azul":52
+futbol:20,
+Basquetbol:30,
+voleybol:40,
+tenis:{
+    rojo:51,
+    azul:52
     },
-"americano":60
+americano:60
 }
 
 // una variable para obtener el valor dentro de una anidacion para botener el valor del dicho equipo en este caso
@@ -30,8 +30,11 @@ for (const key in Deportes) {
 // este tipo de ejercicios propiedades de objetos pero se puede enlazar con otros objetos o añadir mas objetos
 const ejericicio = {
     ... Deportes,
-    "Gym":200,
-    "fisicultirista":300
+    Gym:200,
+    fisicultirista:300
 }
 
 console.log(ejericicio)
+
+const {Gym, fisicultirista, ...nada} = ejericicio
+console.log(Gym)
