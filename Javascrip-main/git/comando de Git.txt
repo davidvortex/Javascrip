@@ -10,5 +10,5 @@ git branch nueva-rama
 
 
 
-git config --global user.name "Davidvortex"  
+git config --global user.name "davidvortex"  
 git config --global user.email "david@hotmail.com"  
