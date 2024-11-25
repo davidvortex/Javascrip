@@ -5,3 +5,7 @@ git push    // subir las cosas al sevidor
 git init     // inicializa una copiar dentro del almacenamiento
 git remote add origin https://github.com/davidvortex/Javascrip.git   //par iniciar la coneccion remota
 git push origin main     //Subir los cambios al repositorio remoto
+
+
+git config --global user.name "David jesus"  
+git config --global user.email "david@hotmail.com"  
