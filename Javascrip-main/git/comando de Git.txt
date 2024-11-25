@@ -10,6 +10,7 @@ git branch nueva-rama
 
 git commit -m "ActualizarGIT"
 git checkout desarrollo    // Para cambiar a una rama existente 
+git branch          //Ver las ramas disponibles:
 
 
 git config --global user.name "davidvortex"  
