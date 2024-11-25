@@ -8,6 +8,8 @@ git push origin main     //Subir los cambios al repositorio remoto
 git push --set-upstream origin main
 git branch nueva-rama
 
+git commit -m "ActualizarGIT"
+git checkout desarrollo    // Para cambiar a una rama existente 
 
 
 git config --global user.name "davidvortex"  
