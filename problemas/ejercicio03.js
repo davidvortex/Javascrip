@@ -1,0 +1,1 @@
+// progama una función que dada un string te devuelva un array de textos separados 
