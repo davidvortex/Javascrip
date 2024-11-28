@@ -11,5 +11,5 @@ print("hola " + nombre +" "+ edad)
 a = int(input("ingrese primer numero:"))
 b = int(input("ingrese segundo numero:"))
 sum = a+b
-print("la suma de los 2 numero es: "+suma)
+print("la suma de los 2 numero es: "+sum)
 
