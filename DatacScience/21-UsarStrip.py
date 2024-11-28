@@ -8,5 +8,5 @@ frase_sin_espacios = frase.strip()
 palabras_en_frase = len(frase_sin_espacios.split())
 
 # Mostrar el resultado
-print(f"La frase después de eliminar los espacios es: '{frase_sin_espacios}'")
+print(f"La frase después de eliminar los espacios es: '{frase_sin_espacios}' ")
 print(f"El número de palabras contenidas en la frase es: {palabras_en_frase}")
