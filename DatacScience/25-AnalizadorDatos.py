@@ -23,5 +23,20 @@ print(NumeroPalabras)
 
 #para borrar la primera palabra
 primero_espacio = texto.find(" ")
-PrimeraPalabra = texto[primero_espacio + 1]
+BorrarPalabra = texto[primero_espacio + 1]
 
+#la siguiente linea de codigo nos ayuda para reemplazar lo que queresmos buscar
+guiones = texto.replace(" " , "-")
+guiones
+
+
+alcontrario= texto.swapcase()
+
+
+print(f"El numero de caractere es {Nu_caracterristicas}")
+print(f"y si no contamos los espacios tienes {NumCaracteresSinEspacio} caracteres")
+print(f"de los caracteres de tecto hay {vocales} que son volcaes")
+print(f"si contamos las palabras con el texto tiene {NumeroPalabras} palabras")
+print(f"eliminamos la primera palabra que daria asi: {BorrarPalabra}")
+print(f"cambiamos o reemplazamos la palabra con: {guiones}")
+print(f"cambiamos mayusuclas por minusculas y queda:{alcontrario}")
