@@ -2,7 +2,7 @@ edades = {"Juan": 28, "Elena": 32, "Marcos": 17}
 
 # cambiar el valor de juan
 edades["Juan"] = 29
-print(edades)
+print(edades.get("Juan"))
 
 # imprimir solo el Valor de elena
 print(edades.get("Elena"))
