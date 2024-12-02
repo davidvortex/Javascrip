@@ -15,3 +15,4 @@ git branch          //Ver las ramas disponibles:
 
 git config --global user.name "davidvortex"  
 git config --global user.email "david@hotmail.com"  
+git rm -r NombreCarpeta
